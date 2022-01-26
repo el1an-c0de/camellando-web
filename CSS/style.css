@@ -20,6 +20,7 @@ header{
     display: block;
     background-color: white;
     width:100%;
+    border-bottom: solid 3px #2b416b;
 }
 
 header h1{
@@ -65,7 +66,6 @@ header ul li a:hover{
 /*BIENVENIDA*/
 #welcome .contenido{
     border-bottom: solid 3px #2b416b;
-    border-top: solid 3px #2b416b;
     background-color: rgb(124, 179, 231);
     padding-left: 50px;
     padding-top: 50px;
@@ -109,9 +109,7 @@ header ul li a:hover{
     text-align: justify;
 }
 /*SERVICIOS*/
-#servicies{
-    border-bottom: solid 3px #2b416b;
-}
+
 #servicies h1{
     padding-top: 25px;
 	font-weight: bold;
@@ -154,9 +152,9 @@ header ul li a:hover{
     transform: scale(1.04);
   }
 
-
 /*PIE DE PAGUINA*/
 footer{
+    border-top: solid 3px #2b416b;
 	display: flex;
 	justify-content:space-between;
 	max-width: 1100px;

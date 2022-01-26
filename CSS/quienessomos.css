@@ -1,0 +1,52 @@
+/*Quienes somos*/
+#quienessomos .contenido1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#quienessomos .contenido2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.izquierda1{
+	float: left;
+    padding-left: 70px;
+}
+.derecha1{
+	float: right;
+    padding-right: 70px;
+}
+.flotanteTexto1{
+	width: 35%;
+    transition: all .2s;
+}
+.flotanteImagen1{
+	width: 30%;
+    transition: all .2s;
+}
+.contenido1 img{
+	width: 100%;
+	height: auto;
+	border: 0;
+	position: relative;
+}
+.contenido2 img{
+	width: 100%;
+	height: auto;
+	border: 0;
+	position: relative;
+}
+.contenido1 h2{
+    
+	font-weight: bold;
+	font-size: 30px;
+}
+.contenido1 p{
+	font-size: 25px;
+	font-weight: 200;
+    text-align: justify;
+}
+.contenido2 p{
+	font-size: 25px;
+	font-weight: 200;
+    text-align: justify;
+}
