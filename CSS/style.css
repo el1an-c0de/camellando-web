@@ -80,13 +80,17 @@ header ul li a:hover{
 .flotanteTexto{
 	width: 35%;
     padding-top: 10%;
+    transition: all .2s;
+}
+.flotanteTexto:hover{
+    transform: scale(1.04);
 }
 .flotanteImagen{
 	width: 59%;
     transition: all .2s;
 }
 .flotanteImagen:hover{
-	transform: scale(1.004);
+	transform: scale(1.005);
 }
 .contenido img{
 	width: 100%;
@@ -105,7 +109,35 @@ header ul li a:hover{
     text-align: justify;
 }
 /*SERVICIOS*/
-
+#servicies{
+    border-bottom: solid 3px #2b416b;
+}
+#servicies h1{
+    padding-top: 25px;
+	font-weight: bold;
+	font-size: 50px;
+    text-align: center;
+}
+.servicio1{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-bottom: 30px;
+  }
+  
+  .servicio2{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 25%;
+    padding-bottom: 30px;
+  }
+  
+  .servicio3{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 25%;
+    padding-bottom: 30px;
+  }
 /*PIE DE PAGUINA*/
 footer{
 	display: flex;
