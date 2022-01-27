@@ -1,0 +1,51 @@
+#registro{
+    padding-bottom: 30px;
+    background-color: rgb(135, 175, 235);
+}
+#registro h1{
+    padding-top: 25px;
+	font-weight: bold;
+	font-size: 30px;
+    text-align: center;
+}
+.register h2{
+	font-weight: bold;
+	font-size: 20px;
+}
+.register input{
+    height: 30px;
+    width: 200px;
+    border: solid 3px #000000;
+    color: #1C1C1C;
+}
+.register{
+    border: solid 5px rgb(43, 90, 128) ;
+    background-color: rgb(99, 157, 223);
+    border-radius: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.register h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.user{
+    padding-top: 20px;
+}
+.phone{
+    padding-bottom: 20px;
+}
+.texto{
+    display: inline-block;
+    padding-left: 80px;
+}
+.campo{
+    display: inline-block;
+    padding-left: 80px;
+}
+.boton{
+    text-align: center;
+    padding-bottom: 20px;
+}
