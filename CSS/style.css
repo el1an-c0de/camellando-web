@@ -116,10 +116,16 @@ header ul li a:hover{
 	font-size: 50px;
     text-align: center;
 }
+#servicies h2{
+    padding-top: 25px;
+	font-weight: bold;
+	font-size: 30px;
+    text-align: center;
+}
 .servicio1{
     display: inline-block;
-    padding-top: 100px;
-    padding-left: 15%;
+    padding-top: 50px;
+    padding-left: 10%;
     padding-bottom: 30px;
     text-align: center;
     transition: all .2s;
@@ -130,7 +136,7 @@ header ul li a:hover{
   
   .servicio2{
     display: inline-block;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 10%;
     padding-bottom: 30px;
     text-align: center;
@@ -142,7 +148,7 @@ header ul li a:hover{
   
   .servicio3{
     display: inline-block;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 10%;
     padding-bottom: 30px;
     text-align: center;
