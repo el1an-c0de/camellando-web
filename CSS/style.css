@@ -8,6 +8,66 @@
     clear: both;
 }
 /*HEADER*/
+
+ /*DISEñO DEL MENU*/
+ /*
+header h1{
+    text-transform: uppercase;
+    text-align: left;
+    width:25%;
+    display:inline-block;
+    margin-left: 80px;
+}
+header nav{
+    text-align: right;
+    display:inline-block;
+    width:80%;
+    justify-content: space-evenly;
+}
+
+header ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: #699bf7;
+    padding: .8em;
+}
+
+header ul li a:hover{
+    color: white;
+    background-color: black;
+}*/
+.menu{
+    padding: .8em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item{
+    text-decoration: none;
+    margin: 1em;
+    font-family: inherit;
+    font-style: normal;
+    font-variant: normal;
+    justify-content: space-evenly
+}
+.item:hover{
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: black;
+}
+/*BANNER*/
+
 header img{
     transition: all .2s;
 }
@@ -22,47 +82,6 @@ header{
     width:100%;
     border-bottom: solid 3px #2b416b;
 }
-
-header h1{
-    text-transform: uppercase;
-    text-align: left;
-    width:25%;
-    display:inline-block;
-    margin-left: 80px;
-}
-header nav{
-    text-align: right;
-    display:inline-block;
-    width:60%;
-}
-
-header ul{
-    display: inline-block;
-    list-style-type: none;
-    margin: 0.5em auto;
-    text-align: center;
-}
-
-header ul li{
-    display: inline-block;
-}
- /*DISEñO DEL MENU*/
-header ul li a{
-    text-decoration: none;
-    /*
-    border: solid;
-    border-color: #4973c0;
-    background-color: #699bf7;
-    */
-    color: #699bf7;
-    padding: 1em;
-}
-
-header ul li a:hover{
-    color: white;
-    background-color: black;
-}
-
 /*BIENVENIDA*/
 #welcome .contenido{
     border-bottom: solid 3px #2b416b;
