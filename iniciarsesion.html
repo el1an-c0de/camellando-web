@@ -5,28 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/registrate.css">
     <link rel="shortcut icon" href="IMG/camellando logo.png"/>
     <title>Iniciar Sesion - CAMELLANDO</title>
 </head>
 <body>
+    <!-- HEADER DE LA PAGINA WEB -->
     <header>
-        <h1>
+        <nav class="menu">
+            <!-- Logo de camellando-->
             <a href="index.html"><img width="190px;" src="IMG/brave_NABlYfKxnx.png" alt=""></a>
-        </h1>
-        <nav>
-            <ul>
-                <!--Cambiar # por enlaces a las paguinas-->
-                <li style="border-right: solid 2px #2b416b;"><a href="index.html">Inicio</a></li>
-                <li style="border-right: solid 2px #2b416b;"><a href="iniciarsesion.html">Iniciar Sesion</a></li>
-                <li style="border-right: solid 2px #2b416b;"><a href="registrate.html">Registrate</a></li>
-                <li style="border-right: solid 2px #2b416b;"><a href="acercade.html">Quienes Somos</a></li>
+            <!-- Menu de camellando -->
+            <ul> 
+                <a href="index.html" class="item">Inicio</a>
+                <a href="acercade.html" class="item">Quienes Somos</a>
+                <a href="#" class="item">Servicios</a>
+                <a href="#" class="item">Contacto</a>
+ 
             </ul>
+
+            <ul> 
+                <a href="iniciarsesion.html" class="item">Inicio Sesion</a>
+                <a href="registrate.html" class="item">Registrar</a>
+            </ul>
+
         </nav>
     </header>
-
-    <h1 style="text-align: center;" >EN CONSTRUCCION XD</h1>
-    <img width="50%" src="IMG/under-construction-with-symbol-background-vector.jpg" alt="">
-
+    <section id="registro">
+        <h1></h1>
+        <div class="register">
+            <div class="user">
+                <div class="texto">
+                    <h2>Usuario</h2>
+                </div>
+                <div class="campo">
+                    <input type="text" placeholder=" ">
+                </div>
+            </div>
+            <div class="password">
+                <div class="texto">
+                    <h2>Contraseña</h2>
+                </div>
+                <div class="campo">
+                    <input type="password" placeholder=" ">
+                </div>
+            </div>
+            <br>
+            <div class="boton">
+                <button>Iniciar Sesion</button>
+            </div>
+        </div>
+    </section>
     
     <section class="footer">
 		<footer>

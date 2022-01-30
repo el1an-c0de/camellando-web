@@ -8,43 +8,6 @@
     clear: both;
 }
 /*HEADER*/
-
- /*DISEñO DEL MENU*/
- /*
-header h1{
-    text-transform: uppercase;
-    text-align: left;
-    width:25%;
-    display:inline-block;
-    margin-left: 80px;
-}
-header nav{
-    text-align: right;
-    display:inline-block;
-    width:80%;
-    justify-content: space-evenly;
-}
-
-header ul{
-    display: inline-block;
-    list-style-type: none;
-    margin: 0.5em auto;
-    text-align: center;
-}
-
-header ul li{
-    display: inline-block;
-}
-header ul li a{
-    text-decoration: none;
-    color: #699bf7;
-    padding: .8em;
-}
-
-header ul li a:hover{
-    color: white;
-    background-color: black;
-}*/
 .menu{
     padding: .8em;
     display: flex;
