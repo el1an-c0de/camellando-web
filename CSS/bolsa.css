@@ -1,0 +1,44 @@
+.top{
+    padding: 20px;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    background: rgb(99, 157, 223);
+}
+.oferta{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 20px;
+    border: solid black 3px;
+    background: rgb(99, 157, 223);
+}
+.oferta .tittle{
+    width: 15%;
+    display: inline-block;
+    text-align: start;
+}
+.oferta .descripcion{
+    width: 65%;
+    display: inline-block;
+}
+.boton{
+    display: inline-block;
+    width: 10%;
+    padding-left: 50px;
+    text-align: center;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background: white;
+    padding: 3px;
+    border: solid black 2px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: initial;
+}
+.text h1{
+    display: inline-block;
+    width: 80%;
+}
